@@ -1,0 +1,122 @@
+{
+  "durationSeconds": 90,
+  "scenes": [
+    {
+      "sec": 10,
+      "label": "THE PROBLEM",
+      "title": [
+        "An agent needs a",
+        "fresh swap quote."
+      ],
+      "body": [
+        "It should not need a monthly",
+        "API subscription for one request."
+      ],
+      "art": "question"
+    },
+    {
+      "sec": 10,
+      "label": "A CONCRETE USE CASE",
+      "title": [
+        "A Telegram bot",
+        "for route checks"
+      ],
+      "body": [
+        "A user asks the bot to compare",
+        "SOL → USDC swap routes."
+      ],
+      "art": "chat"
+    },
+    {
+      "sec": 10,
+      "label": "STEP 1 / REQUEST",
+      "title": [
+        "Ask Swap.io",
+        "for a quote"
+      ],
+      "body": [
+        "The bot requests current routes",
+        "through the Agent API."
+      ],
+      "art": "request"
+    },
+    {
+      "sec": 10,
+      "label": "STEP 2 / PAYMENT",
+      "title": [
+        "HTTP 402 means",
+        "payment required"
+      ],
+      "body": [
+        "The server returns a price and",
+        "payment terms for that call."
+      ],
+      "art": "payment"
+    },
+    {
+      "sec": 10,
+      "label": "STEP 3 / RETRY",
+      "title": [
+        "Pay in USDC",
+        "and retry"
+      ],
+      "body": [
+        "An x402 client handles the",
+        "payment and repeated request."
+      ],
+      "art": "retry"
+    },
+    {
+      "sec": 10,
+      "label": "STEP 4 / ANSWER",
+      "title": [
+        "Show routes",
+        "to the user"
+      ],
+      "body": [
+        "The bot receives quotes.",
+        "The user chooses what happens next."
+      ],
+      "art": "answer"
+    },
+    {
+      "sec": 10,
+      "label": "WHY IT MATTERS",
+      "title": [
+        "Pay per use.",
+        "No API key."
+      ],
+      "body": [
+        "A small bot can request data",
+        "when it actually needs it."
+      ],
+      "art": "why"
+    },
+    {
+      "sec": 10,
+      "label": "IMPORTANT DISTINCTION",
+      "title": [
+        "A quote is not",
+        "a completed swap"
+      ],
+      "body": [
+        "This is a conceptual mockup.",
+        "No live paid call or trade is shown."
+      ],
+      "art": "caution"
+    },
+    {
+      "sec": 10,
+      "label": "LEARN MORE",
+      "title": [
+        "Build small,",
+        "pay only when needed"
+      ],
+      "body": [
+        "Swap.io Agent API · x402 protocol",
+        "docs.swap.io · x402.org"
+      ],
+      "art": "end"
+    }
+  ]
+}
