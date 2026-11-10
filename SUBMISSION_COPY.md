@@ -2,7 +2,7 @@
 
 ## X draft
 
-What if a small Telegram bot could fetch a fresh SOL → USDC swap quote only when someone asks? My 90-second concept shows the Swap.io Agent API x402 flow: request → HTTP 402 → USDC payment → quote. No API-key subscription for occasional use. This is an illustrated concept, not a live paid call or trade. @swapdotio @Superteam https://swap.io
+My 90-second concept: a Telegram bot requests a SOL → USDC quote, gets HTTP 402, pays in USDC via x402, then shows the route. Pay per quote, with no API-key subscription. Illustrated concept only; no live payment or trade. @swapdotio @Superteam
 
 Attach `swapio-x402-telegram-bot.mp4` to the post. Keep the published X URL.
 
